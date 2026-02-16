@@ -1,0 +1,11 @@
+{
+  "name": "@packages/db",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'db dev (placeholder)'",
+    "build": "echo 'db build (placeholder)'",
+    "lint": "echo 'db lint (placeholder)'",
+    "test": "echo 'db tests (placeholder)'"
+  }
+}

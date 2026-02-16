@@ -1,0 +1,11 @@
+{
+  "name": "@packages/shared",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'shared dev (placeholder)'",
+    "build": "echo 'shared build (placeholder)'",
+    "lint": "echo 'shared lint (placeholder)'",
+    "test": "echo 'shared tests (placeholder)'"
+  }
+}

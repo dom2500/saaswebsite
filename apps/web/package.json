@@ -1,0 +1,11 @@
+{
+  "name": "@apps/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'next dev (placeholder)'",
+    "build": "echo 'next build (placeholder)'",
+    "lint": "echo 'next lint (placeholder)'",
+    "test": "echo 'web tests (placeholder)'"
+  }
+}
