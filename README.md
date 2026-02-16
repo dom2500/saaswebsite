@@ -1,39 +1,23 @@
-# SaaS Website Monorepo
+# NovaStack Landing Page
 
-Diese Repository-Struktur ist als Monorepo aufgebaut und trennt Frontend, Backend sowie gemeinsame Pakete klar.
+Moderne SaaS-Website mit dunklem Gradient-Design als statische Seite.
 
-## Struktur
-
-- `apps/web` – Next.js-Frontend
-- `apps/api` – Node/Express-Backend
-- `packages/db` – Datenbank-Schema und Migrationen
-- `packages/shared` – geteilte Types/Utilities
-
-## Voraussetzungen
-
-- Node.js 20+
-- pnpm 9+
-- Docker (optional für lokale Infrastruktur)
-
-## Erste Schritte
+## Entwicklung
 
 ```bash
-pnpm install
-cp .env.example .env
 pnpm dev
 ```
 
-## Einheitliche Root-Scripts
+Danach im Browser öffnen: http://localhost:5173
 
-- `pnpm dev` – startet alle `dev`-Skripte der Workspaces
-- `pnpm build` – führt alle `build`-Skripte aus
-- `pnpm lint` – führt alle `lint`-Skripte aus
-- `pnpm test` – führt alle `test`-Skripte aus
-
-## Docker
-
-Die Datei `docker-compose.yml` bringt eine Postgres-Datenbank für lokale Entwicklung hoch:
+## Build
 
 ```bash
-docker compose up -d
+pnpm build
+```
+
+Für ein lokales Preview:
+
+```bash
+pnpm preview
 ```

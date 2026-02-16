@@ -1,12 +1,11 @@
 {
   "name": "saaswebsite",
   "private": true,
-  "version": "0.1.0",
-  "packageManager": "pnpm@9.0.0",
+  "version": "1.0.0",
+  "description": "Modern black gradient SaaS landing page",
   "scripts": {
-    "dev": "pnpm -r --parallel run dev",
-    "build": "pnpm -r run build",
-    "lint": "pnpm -r run lint",
-    "test": "pnpm -r run test"
+    "dev": "python3 -m http.server 5173",
+    "build": "echo 'Static website: no build required'",
+    "preview": "python3 -m http.server 4173"
   }
 }
