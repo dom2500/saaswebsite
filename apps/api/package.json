@@ -1,0 +1,11 @@
+{
+  "name": "@apps/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'express/fastapi dev (placeholder)'",
+    "build": "echo 'api build (placeholder)'",
+    "lint": "echo 'api lint (placeholder)'",
+    "test": "echo 'api tests (placeholder)'"
+  }
+}
